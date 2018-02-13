@@ -1,6 +1,10 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page"
   xmlns:ui="nativescript-bottomsheet">
   <StackLayout class="p-20">
-    <Label text="{{ message }}" class="t-20 text-center c-black" textWrap="true"/>
+    <Label text="{{ message }}" tap="{{ openSheet }}" class="t-20 text-center c-black" textWrap="true"/>
   </StackLayout>
+  <ui:Bottomsheet id="bottomSheet">
+        <Label text="I'm in the sheet" class="t-20 text-center c-black" textWrap="true"/>
+        <Button text="dismiss" tap="{{ closeSheet }}" />
+  </ui:Bottomsheet>
 </Page>

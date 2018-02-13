@@ -1,10 +1,17 @@
-# Your Plugin Name
+# nativescript-bottomsheet
 
 Add your plugin badges here. See [nativescript-urlhandler](https://github.com/hypery2k/nativescript-urlhandler) for example.
 
 Then describe what's the purpose of your plugin. 
 
 In case you develop UI plugin, this is where you can add some screenshots.
+
+Uses 
+For Android :
+https://github.com/Flipboard/bottomsheet
+
+For IOS :
+https://github.com/hryk224/Bottomsheet
 
 ## (Optional) Prerequisites / Requirements
 

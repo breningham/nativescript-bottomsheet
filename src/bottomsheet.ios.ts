@@ -1,5 +1,5 @@
-import { Common } from './bottomsheet.common';
+import { BottomSheetBase } from './bottomsheet.common';
 
-export class Bottomsheet extends Common {
+export class Bottomsheet extends BottomSheetBase {
 
 }
